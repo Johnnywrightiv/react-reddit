@@ -11,14 +11,14 @@ class App extends Component {
     this.state = {
       posts: [
         {
-          user: 'Jimmy',
-          text: 'wowzers!',
-          upVotes: 1
+          user: 'Robert',
+          text: 'I hate ice cream',
+          upVotes: 3
         },
         {
-          user: 'Robert',
-          text: 'neato!',
-          upVotes: 3
+          user: 'Jimmy',
+          text: 'I like ice cream',
+          upVotes: 1
         },
       ],
       showPosts: true
